@@ -37,8 +37,8 @@ projects.addEventListener("mouseout", function () {
 });
 
 diary.addEventListener("mouseover", function () {
-    diaryImg.src = "IMG/projects-icon-hover.png"
+    diaryImg.src = "IMG/diary-icon-hover.png"
 });
 diary.addEventListener("mouseout", function () {
-    diaryImg.src = "IMG/project-icon.png"
+    diaryImg.src = "IMG/diary-icon.png"
 });

@@ -38,3 +38,43 @@ html {
 .left-nav-btn:hover {
     color: lightblue
 }
+
+#main-content {
+    width: 600px;
+    height: 500px;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-family: Karla, monospaces;
+}
+
+#main-content h1 {
+    font-family: monospace;
+    font-size: 5rem;
+}
+
+#main-content p {
+    margin-top: 80px;
+}
+
+#main-content #p2 {
+    margin-top: 100px;
+}
+
+#main-content #p3 {
+    margin-top: 110px;
+}
+
+@media (max-width:840px) {
+    #main-content {
+        width: 300px;
+    }
+}
+
+@media (max-width:600px) {
+    #main-content {
+        width: 50vw
+    }
+}
