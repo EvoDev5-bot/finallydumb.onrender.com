@@ -8,6 +8,10 @@ const about = document.querySelector("#about")
 const diary = document.querySelector("#diary")
 const projects = document.querySelector("#projects")
 
+function goTo(link) {
+    window.open(link + ".html")
+}
+
 
 
 
