@@ -1,0 +1,40 @@
+:root {
+    --dark-blue-bgclr: #0F172A;
+    --gray-nav: #5c6c82;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: var(--dark-blue-bgclr);
+    font-size: 16px;
+}
+
+.left-nav-btn {
+    color: var(--gray-nav);
+    margin-left: 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-family: Karla, sans-serif;
+}
+
+#left-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 920px;
+    width: 100px;
+}
+
+.left-nav-btn:hover {
+    color: lightblue
+}

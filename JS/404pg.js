@@ -22,11 +22,11 @@ about.addEventListener("mouseout", function () {
     aboutImg.src = "IMG/about-icon.png"
 });
 
-diary.addEventListener("mouseover", function () {
-    diaryImg.src = "IMG/diary-icon-hover.png"
+home.addEventListener("mouseover", function () {
+    homeImg.src = "IMG/home-icon-hover.png"
 });
-diary.addEventListener("mouseout", function () {
-    diaryImg.src = "IMG/diary-icon.png"
+home.addEventListener("mouseout", function () {
+    homeImg.src = "IMG/home-icon.png"
 });
 
 projects.addEventListener("mouseover", function () {
@@ -34,4 +34,11 @@ projects.addEventListener("mouseover", function () {
 });
 projects.addEventListener("mouseout", function () {
     projectsImg.src = "IMG/project-icon.png"
+});
+
+diary.addEventListener("mouseover", function () {
+    diaryImg.src = "IMG/projects-icon-hover.png"
+});
+diary.addEventListener("mouseout", function () {
+    diaryImg.src = "IMG/project-icon.png"
 });

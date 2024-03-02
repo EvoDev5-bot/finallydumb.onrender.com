@@ -62,10 +62,6 @@ html {
     left: 100px;
 }
 
-#home-nav-img:hover {
-    background-image: url("IMG/home-icon-hover.png");
-}
-
 #main-content {
     margin-left: 150px;
     height: 75%;

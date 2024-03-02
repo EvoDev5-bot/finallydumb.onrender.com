@@ -44,10 +44,6 @@ html {
 }
 
 
-#home-nav-img:hover {
-    background-image: url("IMG/home-icon-hover.png");
-}
-
 #right-side {
     width: 2px;
     background-color: #0ea5e9;
