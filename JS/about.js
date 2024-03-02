@@ -9,17 +9,14 @@ const diary = document.querySelector("#diary")
 const projects = document.querySelector("#projects")
 
 
-function goTo(link) {
-    window.open("https://finallydumb.onrender.com/" + link + ".html")
-}
 
 
 
-about.addEventListener("mouseover", function () {
-    aboutImg.src = "IMG/about-icon-hover.png"
+home.addEventListener("mouseover", function () {
+    homeImg.src = "IMG/home-icon-hover.png"
 });
-about.addEventListener("mouseout", function () {
-    aboutImg.src = "IMG/about-icon.png"
+home.addEventListener("mouseout", function () {
+    homeImg.src = "IMG/home-icon.png"
 });
 
 diary.addEventListener("mouseover", function () {

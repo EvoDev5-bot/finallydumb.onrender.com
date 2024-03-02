@@ -117,4 +117,18 @@ html {
     font-weight: bold;
 }
 
-#img {}
+/*RESPONSIVITY*/
+
+@media (max-width: 930px) {
+    #main-content {
+        width: 500px;
+
+    }
+}
+
+@media (max-width: 690px) {
+    #main-content {
+        width: 300px;
+        ;
+    }
+}
